@@ -26,8 +26,16 @@ const ServiceCard = (props) => {
       }}>
         <Image width={34} src={props.img}/>
       </Box>
-      <Typography sx={{fontSize: '20px', fontWeight: 600, lineHeight: '27.3px', color:'purple',  marginBottom: "10px",}}>{props.title}</Typography>
-      <Typography sx={{fontSize: '14px', fontWeight: 400, lineHeight: '22.68px', color:'#4A5568',marginBottom: "25px",}}>{props.desc}</Typography>
+      <Typography sx={{fontSize: '20px',
+         fontWeight: 600,
+          lineHeight: '27.3px',
+           color:'purple',
+             marginBottom: "10px",}}>{props.title}</Typography>
+      <Typography sx={{fontSize: '14px',
+         fontWeight: 400,
+          lineHeight: '22.68px',
+           color:'#4A5568',
+           marginBottom: "25px",}}>{props.desc}</Typography>
     </Box>
   );
 };
